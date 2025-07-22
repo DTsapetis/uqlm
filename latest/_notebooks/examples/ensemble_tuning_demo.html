@@ -774,7 +774,7 @@ Some weights of the model checkpoint at microsoft/deberta-large-mnli were not us
 - This IS NOT expected if you are initializing DebertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
 </pre></div></div>
 </div>
-<img alt="Sample Image" src="https://raw.githubusercontent.com/cvs-health/uqlm/develop/assets/images/uqensemble_tune.png" />
+<p><img alt="Sample Image" src="https://raw.githubusercontent.com/cvs-health/uqlm/develop/assets/images/uqensemble_generate_score.png" /></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid rgba(127, 127, 127, 0.2);"><tr><th style="background-color: rgba(200, 200, 200, 0.2); width: 25%; padding: 8px; text-align: left; border: 1px solid rgba(127, 127, 127, 0.2);"><p>Method</p>
 </th><th style="background-color: rgba(200, 200, 200, 0.2); width: 75%; padding: 8px; text-align: left; border: 1px solid rgba(127, 127, 127, 0.2);"><p>Description &amp; Parameters</p>
 </th></tr><tr><td style="font-weight: bold; vertical-align: top; padding: 8px; border: 1px solid rgba(127, 127, 127, 0.2);"><p>UQEnsemble.tune</p>
@@ -960,7 +960,7 @@ Weight for judge_2: 0.09457673164410399
 </div>
 <p>## 3. Generate LLM Responses and Confidence Scores</p>
 <p>To evaluate hallucination detection performance, we will generate responses and corresponding confidence scores on a holdout set using the tuned ensemble.</p>
-<img alt="Sample Image" src="https://raw.githubusercontent.com/cvs-health/uqlm/develop/assets/images/uqensemble_generate_score.png" />
+<p><img alt="Sample Image" src="https://raw.githubusercontent.com/cvs-health/uqlm/develop/assets/images/uqensemble_generate_score.png" /></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid rgba(127, 127, 127, 0.2);"><tr><th style="background-color: rgba(200, 200, 200, 0.2); width: 25%; padding: 8px; text-align: left; border: 1px solid rgba(127, 127, 127, 0.2);"><p>Method</p>
 </th><th style="background-color: rgba(200, 200, 200, 0.2); width: 75%; padding: 8px; text-align: left; border: 1px solid rgba(127, 127, 127, 0.2);"><p>Description &amp; Parameters</p>
 </th></tr><tr><td style="font-weight: bold; vertical-align: top; padding: 8px; border: 1px solid rgba(127, 127, 127, 0.2);"><p>UQEnsemble.generate_and_score</p>

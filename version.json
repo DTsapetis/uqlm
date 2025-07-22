@@ -1,0 +1,13 @@
+{
+  "version": "0.1.8",
+  "tag": "v0.1.8",
+  "release_date": "2025-07-22T08:13:10.928742",
+  "documentation_url": "https://dtsapetis.github.io/uqlm/latest/",
+  "version_url": "https://dtsapetis.github.io/uqlm/v0.1.8/",
+  "github_release_url": "https://github.com/DTsapetis/uqlm/releases/tag/v0.1.8",
+  "package_info": {
+    "name": "uqlm",
+    "description": "Uncertainty Quantification for Language Models",
+    "python_version": ">=3.9,<3.13"
+  }
+}

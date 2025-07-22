@@ -1,7 +1,47 @@
 [
     {
-        "name": "v1.0.8 (latest)",
+        "name": "v1.010",
+        "version": "1.010",
+        "url": "https://dtsapetis.github.io/uqlm/v1.010/"
+    },
+    {
+        "name": "v1.0.8",
         "version": "1.0.8",
+        "url": "https://dtsapetis.github.io/uqlm/v1.0.8/"
+    },
+    {
+        "name": "v1.0.6",
+        "version": "1.0.6",
+        "url": "https://dtsapetis.github.io/uqlm/v1.0.6/"
+    },
+    {
+        "name": "v1.0.5",
+        "version": "1.0.5",
+        "url": "https://dtsapetis.github.io/uqlm/v1.0.5/"
+    },
+    {
+        "name": "v1.0.4",
+        "version": "1.0.4",
+        "url": "https://dtsapetis.github.io/uqlm/v1.0.4/"
+    },
+    {
+        "name": "v1.0.3",
+        "version": "1.0.3",
+        "url": "https://dtsapetis.github.io/uqlm/v1.0.3/"
+    },
+    {
+        "name": "v1.0.2",
+        "version": "1.0.2",
+        "url": "https://dtsapetis.github.io/uqlm/v1.0.2/"
+    },
+    {
+        "name": "v1.0.0",
+        "version": "1.0.0",
+        "url": "https://dtsapetis.github.io/uqlm/v1.0.0/"
+    },
+    {
+        "name": "v1.0.11 (latest)",
+        "version": "1.0.11",
         "url": "https://dtsapetis.github.io/uqlm/latest/"
     }
 ]

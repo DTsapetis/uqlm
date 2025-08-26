@@ -3,7 +3,7 @@ import os
 import sys
 from pathlib import Path
 
-def rebuild_version_json(current_version, gh_pages_path, site_url="https://cvs-health.github.io/uqlm"):
+def rebuild_version_json(current_version, gh_pages_path, site_url="https://dtsapetis.github.io/uqlm/"):
     version_json_path = Path(gh_pages_path) / "versions.json"
     entries = []
 
